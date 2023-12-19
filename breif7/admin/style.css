@@ -1,0 +1,131 @@
+.parent-form {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent-form .sign {
+    display: flex;
+    margin-top: 20px;
+}
+
+.parent-form .invalid {
+    margin-top: 10px;
+    color: rgba(255, 0, 0, 1);
+}
+
+.parent-form a {
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div {
+    width: 50%;
+}
+
+.product-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.product-item {
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px
+}
+
+.product-item img {
+    width: 70%;
+    height: auto;
+}
+
+.select {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.dashboard {
+    display: flex;
+    height: 100vh;
+
+}
+
+.all-valid {
+    text-align: center;
+    background-color: rgba(0, 255, 0, 0.4);
+    padding: 20px;
+    font-size: 3.5em;
+}
+
+table {
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.vad input {
+    margin-left: 20px;
+}
+
+table tr .admin {
+    background-color: rgb(115, 248, 115);
+}
+
+table tr .normal {
+    background-color: #ddd;
+}
+
+table tr .nonValider {
+    background-color: #ef3b3b;
+    color: #fff;
+}
+
+.modifie-pro img {
+    width: 40%;
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: fit-content;
+    margin: 50px auto;
+}
+
+.pagination li {
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: black 2px solid;
+}
